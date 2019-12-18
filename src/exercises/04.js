@@ -15,7 +15,7 @@ class Toggle extends React.Component {
       },
     )
 
-  // the main idea of render props is we have full control of passed in visual components
+  // the main idea of render props is we as the user, have full control of passed in visual components
   // provides: flexibility of how we want our component rendered.
   // - we also provide state/state updaters/helper functions that your consumers need so they can
   // be responsibe for controlling rendering logic

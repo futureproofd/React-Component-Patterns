@@ -38,7 +38,7 @@ class Toggle extends React.Component {
     // 1. React.Children.map: https://reactjs.org/docs/react-api.html#reactchildrenmap
     // 2. React.cloneElement: https://reactjs.org/docs/react-api.html#cloneelement
     //
-    // 🐨 you'll want to completely replace the code below with the above logic.
+    // 🐨 you'll want to completely replace the code below:
     //const {on} = this.state
     //return <Switch on={on} onClick={this.toggle} />
     return React.Children.map(this.props.children, childElement =>
@@ -56,7 +56,7 @@ class Toggle extends React.Component {
 
 //the idea of the compound component is that these children (or static compound components)
 // of Toggle, allow the users to render however they like, without providing some
-// complicated render prop API that we have to know how to use
+// complicated rendering prop API that we have to know how to use
 function Usage({
   onToggle = (...args) => console.log('onToggle', ...args),
 }) {

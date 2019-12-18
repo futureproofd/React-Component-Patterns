@@ -13,7 +13,6 @@ import {Switch} from '../switch'
 // with the ones we need to get our toggle functionality to work
 //
 // 💰 Here's a little utility that might come in handy
-// const callAll = (...fns) => (...args) => fns.forEach(fn => fn && fn(...args))
 // it accepts any number of functions that returns a function which accepts any number of args
 // then, for each function, if it exists, call it with the args
 const callAll = (...fns) => (...args) =>
